@@ -12,49 +12,47 @@
 
   <style media="screen">
     body {
-      background-image: url("backgroundpicture.jpg");
+      background-color:#A87883;
       background-size: cover;
       font-family:'Open Sans';
     }
 
-# main {
+#main {
   width: 1200px;
   height: 1400px;
   margin: 0 auto
   border: 1px solid #000;
 }
 
-# banner {
-  width: 1200px;
-}
 
 nav{
   width: 1200 px;
   height: 50px;
 }
 
-a{
-  text decoration: none;
-  color: fff;
-  font-size: 100%
-}
-
 a:hover{
-  background-color: #999;
+  background-color: #8A496B;
+  padding: 0;
 }
 
 nav_nul{
-  margin=0;
-  padding=0;
+  margin: 0;
+  padding: 0;
   list-style-type: none;
 }
 
-.nav{
+.nav, a{
   display: table-cell;
   width: 200px;
   height: 50px;
   text-allign: center;
   vertical-allign: middle;
+}
+
+a{
+  text decoration: none;
+  color: fff;
+  font-size: 100%
 }
 
     h1 {
@@ -71,13 +69,26 @@ nav_nul{
       text-align: center;
     }
 
+    #main{
+      list-style-type: none;
+      margin:0;
+      padding:0;
+    }
+
+    li{
+      display: table-cell;
+      width:300px;
+      text-align: center;
+    }
+
+
 </style>
 
 </head>
 
 <body>
   <div id="main">
-  <img id="banner" src="mybackground.ipg">
+  <img id="banner" src="mypicture.jpg">
 
   <nav>
     <ul id= "main">
@@ -86,6 +97,7 @@ nav_nul{
     </li>
     <li>
     <a href=“Resume”>Resume</a>
+    <li class="nav"><a href="resume.html">Link</a></li>
     </li>
     <li>
     <a href=“Gallery”>Gallery</a>
